@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17415" started-at="2019-04-01T08:04:51Z" finished-at="2019-04-01T08:05:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17415" started-at="2019-04-01T08:04:51Z" finished-at="2019-04-01T08:05:08Z">
+      <class name="tests.ValidLogin">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.ValidLogin@5649fd9b]" name="beforeSuite" is-config="true" duration-ms="548" started-at="2019-04-01T13:34:50Z" finished-at="2019-04-01T13:34:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:tests.ValidLogin@5649fd9b]" name="setValues" is-config="true" duration-ms="0" started-at="2019-04-01T13:34:51Z" finished-at="2019-04-01T13:34:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.ValidLogin@5649fd9b]" name="beforeMethod" is-config="true" duration-ms="2446" started-at="2019-04-01T13:34:51Z" finished-at="2019-04-01T13:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:tests.ValidLogin@5649fd9b]" name="launchApp" is-config="true" duration-ms="4477" started-at="2019-04-01T13:34:54Z" finished-at="2019-04-01T13:34:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="inValid(java.lang.String, java.lang.String)[pri:0, instance:tests.ValidLogin@5649fd9b]" name="inValid" duration-ms="8279" started-at="2019-04-01T13:34:58Z" data-provider="fetchData" finished-at="2019-04-01T13:35:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sridharanbe.ece@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValid -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.ValidLogin@5649fd9b]" name="afterMethod" is-config="true" duration-ms="1845" started-at="2019-04-01T13:35:06Z" finished-at="2019-04-01T13:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.ValidLogin@5649fd9b]" name="afterSuite" is-config="true" duration-ms="257" started-at="2019-04-01T13:35:08Z" finished-at="2019-04-01T13:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.ValidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
